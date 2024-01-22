@@ -12,5 +12,6 @@ namespace Mariala.DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Project> Projects { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }
